@@ -1,18 +1,19 @@
-import React from "react";
-import footer1 from "../assets/images/footer-1-1.png";
-import footer2 from "../assets/images/footer-1-2.png";
-import footer3 from "../assets/images/footer-1-3.png";
-import footer4 from "../assets/images/footer-1-4.png";
-import footer5 from "../assets/images/footer-1-5.png";
-import footer6 from "../assets/images/footer-1-6.png";
+import React from "react"
+import footer1 from "../assets/images/footer-1-1.png"
+import footer2 from "../assets/images/footer-1-2.png"
+import footer3 from "../assets/images/footer-1-3.png"
+import footer4 from "../assets/images/footer-1-4.png"
+import footer5 from "../assets/images/footer-1-5.png"
+import footer6 from "../assets/images/footer-1-6.png"
 
 const Footer = () => {
   function scrollTop() {
-    window.scrollTo(0, 0);
+    window.scrollTo(0, 0)
   }
   return (
     <div>
       <footer className="site-footer">
+        {/*
         <div className="site-footer__upper">
           <div className="container">
             <div className="row">
@@ -132,10 +133,12 @@ const Footer = () => {
             </div>
           </div>
         </div>
+        */}
         <div className="site-footer__bottom">
           <div className="container">
             <p className="site-footer__copy">
-              &copy; Copyright 2020 by <a href="#none">Layerdrops.com</a>
+              &copy; Copyright 2021 by{" "}
+              <a href="https://dev-island.org">dev-island.org</a>
             </p>
             <div className="site-footer__social">
               <div
@@ -148,17 +151,14 @@ const Footer = () => {
                 <i className="kipso-icon-top-arrow"></i>
               </div>
 
-              <a href="#none">
-                <i className="fab fa-twitter"></i>
+              <a
+                href="https://linkedin.com/company/hidev-island"
+                target="_blank"
+              >
+                <i className="fab fa-linkedin"></i>
               </a>
-              <a href="#none">
-                <i className="fab fa-facebook-square"></i>
-              </a>
-              <a href="#none">
-                <i className="fab fa-pinterest-p"></i>
-              </a>
-              <a href="#none">
-                <i className="fab fa-instagram"></i>
+              <a href="https://github.com/dev-island" target="_blank">
+                <i className="fab fa-github"></i>
               </a>
             </div>
           </div>
@@ -182,6 +182,6 @@ const Footer = () => {
         </div>
       </div>
     </div>
-  );
-};
-export default Footer;
+  )
+}
+export default Footer

@@ -1,4 +1,4 @@
-import React from "react";
+import React from "react"
 
 const CallToActionTwo = () => {
   return (
@@ -13,13 +13,12 @@ const CallToActionTwo = () => {
                 </span>
               </div>
               <div className="cta-two__content">
-                <h2 className="cta-two__title">Become an teacher</h2>
+                <h2 className="cta-two__title">Become an instructor</h2>
                 <p className="cta-two__text">
-                  There are many variations of passages of lore available but{" "}
-                  <br /> the majority have suffered alteration in some form.
+                  Interested in helping us train new developers?
                 </p>
                 <a href="#none" className="thm-btn cta-two__btn">
-                  Start Teaching
+                  Contact Us
                 </a>
               </div>
             </div>
@@ -32,13 +31,12 @@ const CallToActionTwo = () => {
                 </span>
               </div>
               <div className="cta-two__content">
-                <h2 className="cta-two__title">Join our community</h2>
+                <h2 className="cta-two__title">Join a cohort</h2>
                 <p className="cta-two__text">
-                  There are many variations of passages of lore available but{" "}
-                  <br /> the majority have suffered alteration in some form.
+                  Interested in joining our next cohort?
                 </p>
                 <a href="#none" className="thm-btn cta-two__btn">
-                  Start Learning
+                  Contact Us
                 </a>
               </div>
             </div>
@@ -46,7 +44,7 @@ const CallToActionTwo = () => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default CallToActionTwo;
+export default CallToActionTwo

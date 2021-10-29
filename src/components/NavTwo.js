@@ -1,46 +1,46 @@
-import React, { Component } from "react";
-import { Link } from "gatsby";
-import logo from "../assets/images/logo-dark.png";
+import React, { Component } from "react"
+import { Link } from "gatsby"
+import logo from "../assets/images/logo-dev-island.png"
 class NavTwo extends Component {
   constructor() {
-    super();
+    super()
     this.state = {
-      sticky: false
-    };
+      sticky: false,
+    }
   }
   componentDidMount() {
-    window.addEventListener("scroll", this.handleScroll);
+    window.addEventListener("scroll", this.handleScroll)
 
     //Mobile Menu
-    this.mobileMenu();
+    this.mobileMenu()
   }
 
   componentWillUnmount() {
-    window.removeEventListener("scroll", this.handleScroll);
+    window.removeEventListener("scroll", this.handleScroll)
   }
 
   handleScroll = () => {
     if (window.scrollY > 70) {
       this.setState({
-        sticky: true
-      });
+        sticky: true,
+      })
     } else if (window.scrollY < 70) {
       this.setState({
-        sticky: false
-      });
+        sticky: false,
+      })
     }
-  };
+  }
 
   mobileMenu = () => {
     //Mobile Menu Toggle
-    let mainNavToggler = document.querySelector(".menu-toggler");
-    let mainNav = document.querySelector(".main-navigation");
+    let mainNavToggler = document.querySelector(".menu-toggler")
+    let mainNav = document.querySelector(".main-navigation")
 
     mainNavToggler.addEventListener("click", function () {
       mainNav.style.display =
-        mainNav.style.display !== "block" ? "block" : "none";
-    });
-  };
+        mainNav.style.display !== "block" ? "block" : "none"
+    })
+  }
   render() {
     return (
       <header className="site-header site-header__header-two ">
@@ -56,6 +56,7 @@ class NavTwo extends Component {
                   src={logo}
                   className="main-logo"
                   width="128"
+                  style={{ marginTop: "-20px" }}
                   alt="Awesome alter text"
                 />
               </Link>
@@ -67,7 +68,7 @@ class NavTwo extends Component {
               <ul className=" navigation-box">
                 <li className="current">
                   <Link to="/">Home</Link>
-                  <ul className="sub-menu">
+                  {/*<ul className="sub-menu">
                     <li>
                       <Link to="/">Home 01</Link>
                     </li>
@@ -91,9 +92,13 @@ class NavTwo extends Component {
                         </li>
                       </ul>
                     </li>
-                  </ul>
+        </ul>*/}
                 </li>
-                <li>
+                {/*
+                  <li>
+                    <a href="/about">About</a>
+                  </li>
+                  <li>
                   <a href="#none">Pages</a>
                   <ul className="sub-menu">
                     <li>
@@ -146,6 +151,7 @@ class NavTwo extends Component {
                     </li>
                   </ul>
                 </li>
+              */}
                 <li>
                   <Link to="/contact">Contact</Link>
                 </li>
@@ -153,17 +159,14 @@ class NavTwo extends Component {
             </div>
             <div className="right-side-box">
               <div className="header__social">
-                <a href="#none">
-                  <i className="fab fa-twitter"></i>
+                <a
+                  href="https://linkedin.com/company/hidev-island"
+                  target="_blank"
+                >
+                  <i className="fab fa-linkedin"></i>
                 </a>
-                <a href="#none">
-                  <i className="fab fa-facebook-square"></i>
-                </a>
-                <a href="#none">
-                  <i className="fab fa-pinterest-p"></i>
-                </a>
-                <a href="#none">
-                  <i className="fab fa-instagram"></i>
+                <a href="https://github.com/dev-island" target="_blank">
+                  <i className="fab fa-github"></i>
                 </a>
               </div>
             </div>
@@ -183,7 +186,7 @@ class NavTwo extends Component {
           </div>
         </div>
       </header>
-    );
+    )
   }
 }
-export default NavTwo;
+export default NavTwo

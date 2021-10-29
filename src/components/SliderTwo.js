@@ -1,23 +1,23 @@
-import React, { useState } from "react";
-import Swiper from "react-id-swiper";
-import "swiper/css/swiper.css";
-import bg1 from "../assets/images/slider-2-1.jpg";
-import bg2 from "../assets/images/slider-2-2.jpg";
+import React, { useState } from "react"
+import Swiper from "react-id-swiper"
+import "swiper/css/swiper.css"
+import bg1 from "../assets/images/slider-1.jpeg"
+import bg2 from "../assets/images/slider-2.jpeg"
 
 const SliderTwo = () => {
-  const [swiper, setSwiper] = useState(null);
+  const [swiper, setSwiper] = useState(null)
 
   const goNext = () => {
     if (swiper !== null) {
-      swiper.slideNext();
+      swiper.slideNext()
     }
-  };
+  }
 
   const goPrev = () => {
     if (swiper !== null) {
-      swiper.slidePrev();
+      swiper.slidePrev()
     }
-  };
+  }
 
   return (
     <div className="banner-wrapper">
@@ -25,18 +25,20 @@ const SliderTwo = () => {
         <Swiper getSwiper={setSwiper}>
           <div
             className="banner-two__slide banner-two__slide-one"
-            style={{ backgroundImage: `url(${bg1})` }}
+            style={{ backgroundImage: `url(${bg2})` }}
           >
             <div className="container">
               <div className="row no-gutters">
                 <div className="col-xl-12">
-                  <p className="banner-two__tag-line">High quality courses</p>
+                  <p className="banner-two__tag-line">
+                    Building Kaua'i's Economy
+                  </p>
                   <h3 className="banner-two__title banner-two__light-color">
-                    Read & learn <br />
-                    in an easy way
+                    by training <br />
+                    developers
                   </h3>
-                  <a href="#none" className="thm-btn banner-two__btn">
-                    Learn More
+                  <a href="/contact" className="thm-btn banner-two__btn">
+                    Contact Us
                   </a>
                 </div>
               </div>
@@ -44,18 +46,20 @@ const SliderTwo = () => {
           </div>
           <div
             className="banner-two__slide banner-two__slide-two"
-            style={{ backgroundImage: `url(${bg2})` }}
+            style={{ backgroundImage: `url(${bg1})` }}
           >
             <div className="container">
               <div className="row no-gutters">
                 <div className="col-xl-12">
-                  <p className="banner-two__tag-line">High quality courses</p>
+                  <p className="banner-two__tag-line">
+                    Frontend Web Development
+                  </p>
                   <h3 className="banner-two__title banner-two__light-color">
-                    Read & learn <br />
-                    in an easy way
+                    learn to write <br />
+                    web applications
                   </h3>
-                  <a href="#none" className="thm-btn banner-two__btn">
-                    Learn More
+                  <a href="/contact" className="thm-btn banner-two__btn">
+                    Contact Us
                   </a>
                 </div>
               </div>
@@ -84,7 +88,7 @@ const SliderTwo = () => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default SliderTwo;
+export default SliderTwo
