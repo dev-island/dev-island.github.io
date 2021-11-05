@@ -7,6 +7,8 @@ import bg2 from "../assets/images/slider-2.jpeg"
 const SliderTwo = () => {
   const [swiper, setSwiper] = useState(null)
 
+  console.log(swiper)
+
   const goNext = () => {
     if (swiper !== null) {
       swiper.slideNext()
@@ -22,7 +24,7 @@ const SliderTwo = () => {
   return (
     <div className="banner-wrapper">
       <section className="banner-two banner-carousel__one no-dots">
-        <Swiper getSwiper={setSwiper}>
+        <Swiper getSwiper={setSwiper} loop>
           <div
             className="banner-two__slide banner-two__slide-one"
             style={{ backgroundImage: `url(${bg2})` }}

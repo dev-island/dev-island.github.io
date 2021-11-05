@@ -2350,6 +2350,8 @@ a:visited {
   margin-bottom: -103px;
 }
 .team-one__image img {
+  object-fit: cover;
+  max-height: 206px;
   max-width: 206px;
   width: 100%;
   border-radius: 50%;
