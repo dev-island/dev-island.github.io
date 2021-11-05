@@ -66,7 +66,11 @@ class NavTwo extends Component {
             </div>
             <div className="main-navigation">
               <ul className=" navigation-box">
-                <li className="current">
+                <li
+                  className={`${
+                    window.location.pathname === "/" ? "current" : ""
+                  }`}
+                >
                   <Link to="/">Home</Link>
                   {/*<ul className="sub-menu">
                     <li>
@@ -152,8 +156,19 @@ class NavTwo extends Component {
                   </ul>
                 </li>
               */}
-                <li>
+                <li
+                  className={`${
+                    window.location.pathname === "/contact" ? "current" : ""
+                  }`}
+                >
                   <Link to="/contact">Contact</Link>
+                </li>
+                <li
+                  className={`${
+                    window.location.pathname === "/apply" ? "current" : ""
+                  }`}
+                >
+                  <Link to="/apply">Apply</Link>
                 </li>
               </ul>
             </div>

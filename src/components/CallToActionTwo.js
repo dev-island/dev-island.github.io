@@ -17,7 +17,7 @@ const CallToActionTwo = () => {
                 <p className="cta-two__text">
                   Interested in helping us train new developers?
                 </p>
-                <a href="#none" className="thm-btn cta-two__btn">
+                <a href="/contact" className="thm-btn cta-two__btn">
                   Contact Us
                 </a>
               </div>
@@ -35,8 +35,8 @@ const CallToActionTwo = () => {
                 <p className="cta-two__text">
                   Interested in joining our next cohort?
                 </p>
-                <a href="#none" className="thm-btn cta-two__btn">
-                  Contact Us
+                <a href="/apply" className="thm-btn cta-two__btn">
+                  Apply Now
                 </a>
               </div>
             </div>

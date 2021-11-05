@@ -39,8 +39,8 @@ const SliderTwo = () => {
                     by training <br />
                     developers
                   </h3>
-                  <a href="/contact" className="thm-btn banner-two__btn">
-                    Contact Us
+                  <a href="/apply" className="thm-btn banner-two__btn">
+                    Apply Now
                   </a>
                 </div>
               </div>
@@ -60,8 +60,8 @@ const SliderTwo = () => {
                     learn to write <br />
                     web applications
                   </h3>
-                  <a href="/contact" className="thm-btn banner-two__btn">
-                    Contact Us
+                  <a href="/apply" className="thm-btn banner-two__btn">
+                    Apply Now
                   </a>
                 </div>
               </div>
