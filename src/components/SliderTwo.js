@@ -7,8 +7,6 @@ import bg2 from "../assets/images/slider-2.jpeg"
 const SliderTwo = () => {
   const [swiper, setSwiper] = useState(null)
 
-  console.log(swiper)
-
   const goNext = () => {
     if (swiper !== null) {
       swiper.slideNext()

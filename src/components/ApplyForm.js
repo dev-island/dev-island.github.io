@@ -8,9 +8,10 @@ const ApplyForm = () => {
           src="https://docs.google.com/forms/d/e/1FAIpQLSe8KRUB-3Cw-kZgO5Xso49wGsfcFZoB3tRy9bH6wGrQ9JKw-A/viewform?embedded=true"
           width="640"
           height="2810"
-          frameborder="0"
-          marginheight="0"
-          marginwidth="0"
+          frameBorder="0"
+          marginHeight="0"
+          marginWidth="0"
+          title="apply form"
         >
           Loading…
         </iframe>

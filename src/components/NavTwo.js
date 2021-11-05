@@ -41,7 +41,10 @@ class NavTwo extends Component {
         mainNav.style.display !== "block" ? "block" : "none"
     })
   }
+
   render() {
+    const { path } = this.props
+    console.log(path)
     return (
       <header className="site-header site-header__header-two ">
         <nav
@@ -66,11 +69,7 @@ class NavTwo extends Component {
             </div>
             <div className="main-navigation">
               <ul className=" navigation-box">
-                <li
-                  className={`${
-                    window.location.pathname === "/" ? "current" : ""
-                  }`}
-                >
+                <li className={`${path === "/" ? "current" : ""}`}>
                   <Link to="/">Home</Link>
                   {/*<ul className="sub-menu">
                     <li>
@@ -156,18 +155,10 @@ class NavTwo extends Component {
                   </ul>
                 </li>
               */}
-                <li
-                  className={`${
-                    window.location.pathname === "/contact" ? "current" : ""
-                  }`}
-                >
+                <li className={`${path === "/contact/" ? "current" : ""}`}>
                   <Link to="/contact">Contact</Link>
                 </li>
-                <li
-                  className={`${
-                    window.location.pathname === "/apply" ? "current" : ""
-                  }`}
-                >
+                <li className={`${path === "/apply/" ? "current" : ""}`}>
                   <Link to="/apply">Apply</Link>
                 </li>
               </ul>
@@ -177,10 +168,15 @@ class NavTwo extends Component {
                 <a
                   href="https://linkedin.com/company/hidev-island"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   <i className="fab fa-linkedin"></i>
                 </a>
-                <a href="https://github.com/dev-island" target="_blank">
+                <a
+                  href="https://github.com/dev-island"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <i className="fab fa-github"></i>
                 </a>
               </div>

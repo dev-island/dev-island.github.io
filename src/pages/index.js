@@ -12,24 +12,22 @@ import BlogThree from "../components/BlogThree"
 // import Pricing from "../components/Pricing"
 // import MeetingOne from "../components/MeetingOne"
 
-const HomePageTwo = () => {
-  return (
-    <Layout pageTitle="Home | DevIsland">
-      <NavTwo />
-      <SliderTwo />
-      <AboutOne />
-      <TeamOne />
-      <BlogThree />
-      <CallToActionTwo />
-      <Footer />
-      {/*
+const HomePageTwo = ({ path }) => (
+  <Layout pageTitle="Home | DevIsland">
+    <NavTwo path={path} />
+    <SliderTwo />
+    <AboutOne />
+    <TeamOne />
+    <BlogThree />
+    <CallToActionTwo />
+    <Footer />
+    {/*
         <CourseCatTwo />
         <CourseTwo />
         <Pricing />
         <MeetingOne />
       */}
-    </Layout>
-  )
-}
+  </Layout>
+)
 
 export default HomePageTwo

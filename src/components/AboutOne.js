@@ -65,7 +65,7 @@ class AboutOne extends Component {
             grow our ohana and community. The resulting fruit of our labor will
             be a healthy, diverse, and sustainable Kaua'i.
           </p>
-          <a href="/contact" className="thm-btn about-one__btn">
+          <a href="/apply" className="thm-btn about-one__btn">
             Start Learning Now
           </a>
         </div>

@@ -5,15 +5,13 @@ import PageHeader from "../components/PageHeader"
 import Footer from "../components/Footer"
 import Contact from "../components/Contact"
 
-const GalleryPage = () => {
-  return (
-    <Layout pageTitle="Contact | DevIsland">
-      <NavTwo />
-      <PageHeader title="Contact" />
-      <Contact />
-      <Footer />
-    </Layout>
-  )
-}
+const GalleryPage = ({ path }) => (
+  <Layout pageTitle="Contact | DevIsland">
+    <NavTwo path={path} />
+    <PageHeader title="Contact" />
+    <Contact />
+    <Footer />
+  </Layout>
+)
 
 export default GalleryPage

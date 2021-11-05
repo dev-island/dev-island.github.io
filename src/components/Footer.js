@@ -1,10 +1,10 @@
 import React from "react"
-import footer1 from "../assets/images/footer-1-1.png"
-import footer2 from "../assets/images/footer-1-2.png"
-import footer3 from "../assets/images/footer-1-3.png"
-import footer4 from "../assets/images/footer-1-4.png"
-import footer5 from "../assets/images/footer-1-5.png"
-import footer6 from "../assets/images/footer-1-6.png"
+// import footer1 from "../assets/images/footer-1-1.png"
+// import footer2 from "../assets/images/footer-1-2.png"
+// import footer3 from "../assets/images/footer-1-3.png"
+// import footer4 from "../assets/images/footer-1-4.png"
+// import footer5 from "../assets/images/footer-1-5.png"
+// import footer6 from "../assets/images/footer-1-6.png"
 
 const Footer = () => {
   function scrollTop() {
@@ -154,10 +154,15 @@ const Footer = () => {
               <a
                 href="https://linkedin.com/company/hidev-island"
                 target="_blank"
+                rel="noreferrer"
               >
                 <i className="fab fa-linkedin"></i>
               </a>
-              <a href="https://github.com/dev-island" target="_blank">
+              <a
+                href="https://github.com/dev-island"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <i className="fab fa-github"></i>
               </a>
             </div>

@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "gatsby develop",
     "build": "gatsby build",
+    "postbuild": "cp ./CNAME ./public",
     "prerelease": "yarn build",
     "release": "gh-pages -d public",
     "serve": "gatsby serve"

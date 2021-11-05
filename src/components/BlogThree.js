@@ -1,7 +1,7 @@
 import React from "react"
-import blog1 from "../assets/images/blog-1-1.jpg"
-import blog2 from "../assets/images/blog-1-2.jpg"
-import blog3 from "../assets/images/blog-1-3.jpg"
+// import blog1 from "../assets/images/blog-1-1.jpg"
+// import blog2 from "../assets/images/blog-1-2.jpg"
+// import blog3 from "../assets/images/blog-1-3.jpg"
 const BlogThree = () => {
   return (
     <section className="blog-one  blog-one__home-two">
@@ -21,6 +21,7 @@ const BlogThree = () => {
                   className="blog-one__plus"
                   href="https://hawaii.bulletin.com/1774451602739006/"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   <i className="kipso-icon-plus-symbol"></i>
                 </a>
@@ -58,6 +59,7 @@ const BlogThree = () => {
                   <a
                     href="https://hawaii.bulletin.com/1774451602739006/"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     Coding bootcamp coming to Kauai
                   </a>
@@ -69,6 +71,7 @@ const BlogThree = () => {
                 <a
                   href="https://hawaii.bulletin.com/1774451602739006/"
                   target="_blank"
+                  rel="noreferrer"
                   className="blog-one__link"
                 >
                   Read More
