@@ -1,11 +1,11 @@
 import React from "react"
 import rich from "../assets/images/team-rich.png"
-import aj from "../assets/images/team-aj.jpeg"
+import aj from "../assets/images/team-aj.jpg"
 import dani from "../assets/images/team-dani.jpg"
 import jason from "../assets/images/team-jason.jpg"
 import dave from "../assets/images/team-dave.jpeg"
 // TODO: Add Keoni's headshot
-import keoni from "../assets/images/team-1-1.jpg"
+import keoni from "../assets/images/team-blank.png"
 
 const TeamOne = () => {
   return (
@@ -29,21 +29,15 @@ const TeamOne = () => {
                   Board of Directors
                 </p>
                 <p className="team-one__text">
-                  Rich Uhl is an experienced technology consultant and executive
-                  passionate about building—teams, products, and solutions. Rich
-                  is the Founder and CTO of 1Strategy, AWS experts and
+                  Rich Uhl is an experienced technology executive passionate
+                  about building—teams, and solutions. Rich is the Founder and
+                  CTO of 1Strategy, Amazon Web Services (AWS) experts and
                   implementation partners. Founded in July of 2015, Rich grew
-                  the 1Strategy team to a total 25 employees prior to its
-                  acquisition by TEKsystems, a global IT services company, in
-                  October of 2019. Since 2010, Rich has been a remote worker
-                  living in multiple geographies including Salt Lake City, Utah,
-                  Seattle, Washington, and Kalaheo, HI. 1Strategy is an entirely
-                  remote business and has been since its founding. His extensive
-                  remote work experience will be critical to help students
-                  navigate the challenges of remote work. Rich will serve on the
-                  Board of Directors and function as a President focused on
-                  business development and partnerships required to build and
-                  grow Dev-Island and its students.
+                  the 1Strategy to become an AWS Premier Partner (only 75
+                  partners among 100,000+). In October of 2019, Rich sold
+                  1Strategy to TEKsystems Global Services, a global IT services
+                  company. Rich will focus on business development and
+                  partnerships.
                 </p>
               </div>
               <div className="team-one__social">
@@ -67,17 +61,18 @@ const TeamOne = () => {
                   <a href="#teacher-details">AJ Webb</a>
                 </h2>
                 <p className="team-one__designation">
-                  Member <br /> Board of Directors
+                  Lead Instructor <br /> Board of Directors
                 </p>
                 <p className="team-one__text">
-                  AJ Webb is an experienced Principal Software Engineer with a
-                  demonstrated history of working in the financial services
-                  industry. He is skilled in Management, JavaScript applications
-                  and Agile Methodologies. Strong engineering professional with
-                  a BS focused in Digital Media from Utah Valley University. AJ
-                  is a proud Hawaii resident and lives and works from the island
-                  of Kaua'i. AJ will serve on the Board of Directors and will
-                  lead the technical education of the students.
+                  AJ Webb is an experienced software development instructor and
+                  Principal Software Engineer in the financial services
+                  industry. He is skilled in Management, mentoring and
+                  JavaScript applications and Agile Methodologies. AJ is a
+                  strong engineering professional with a BS focused in Digital
+                  Media from Utah Valley University. AJ is a proud Hawaii
+                  resident and lives and works from the island of Kaua'i. AJ
+                  will serve on the Board of Directors and will lead the
+                  technical education of the students.
                 </p>
               </div>
               <div className="team-one__social">
@@ -114,13 +109,12 @@ const TeamOne = () => {
                 <p className="team-one__designation">Director of Operations</p>
                 <p className="team-one__text">
                   Danielle Steed received a bachelor’s degree in education. She
-                  also has experience at the university level as a Graduate
-                  Program Manager. In addition to her passion for continued
-                  education, she has worked with several technology startups,
-                  including 1Strategy, a Premier AWS Consulting company. Over
-                  the last 5 years she has grown her knowledge and love for
-                  technology. Danielle will serve as the Director of Operations
-                  and focus on business development.
+                  has experience at the university level as a Graduate Program
+                  Manager. In addition to her passion for continued education,
+                  she has worked with several technology startups, including
+                  1Strategy, a Premier AWS Consulting company. Over the last 5
+                  years she has grown her knowledge and love for technology.
+                  Danielle will focus on business development.
                 </p>
               </div>
               <div className="team-one__social">
@@ -143,17 +137,21 @@ const TeamOne = () => {
                 <h2 className="team-one__name">
                   <a href="#teacher-details">Jason Bryant</a>
                 </h2>
-                <p className="team-one__designation">
-                  Member <br /> Board of Directors
-                </p>
+                <p className="team-one__designation">Board of Directors</p>
                 <p className="team-one__text">
-                  Jason Bryant has over a decade of IT, Radar, RF Communications
-                  and Cybersecurity experience. He is a subject matter export in
-                  cybersecurity architecture, government architecture standards
-                  and Agile. He has twelve years of experience in requirements
-                  analysis, system architecture and MBSE. Jason has worked at
-                  every level of Information Security (IAO, ISSO, ISSM, FSO and
-                  CISO). Jason will serve on the Board of Directors
+                  Jason Bryant is an experienced Systems Engineer with over a
+                  decade of IT, Radar, RF Communications and Cybersecurity
+                  experience. He is a subject matter export in cybersecurity
+                  architecture, government architecture standards and Agile
+                  methodologies. He is comfortable in performing requirements
+                  analysis, designing system architecture and MBSE. Jason’s
+                  education is highly focused on IT and business management. 
+                  His BS is in Network Administration and Integrated Computing
+                  Systems. Born and raised on the westside of Kauai, Jason is an
+                  active member of his local community.  As a local business
+                  owner, father, and coach he is committed to investing into the
+                  island that raised him. Jason will serve on the Board of
+                  Directors.
                 </p>
               </div>
               <div className="team-one__social">
@@ -176,10 +174,12 @@ const TeamOne = () => {
                 <h2 className="team-one__name">
                   <a href="#teacher-details">Keoni Pau</a>
                 </h2>
-                <p className="team-one__designation">
-                  Member <br /> Board of Directors
+                <p className="team-one__designation">Board of Directors</p>
+                <p className="team-one__text">
+                  Keoni Pau is an educator at Chiefess Kamakahelei Middle
+                  School, teaching both STEM and Hawaiiana classes. Keoni will
+                  serve on the board of directors.
                 </p>
-                <p className="team-one__text">{/* TODO: Add Keoni's Bio */}</p>
               </div>
               <div className="team-one__social">
                 {/* TODO: Add Keoni's socials
@@ -203,24 +203,15 @@ const TeamOne = () => {
                 <h2 className="team-one__name">
                   <a href="#teacher-details">David Dooley</a>
                 </h2>
-                <p className="team-one__designation">
-                  Member <br /> Board of Directors
-                </p>
+                <p className="team-one__designation">Board of Directors</p>
                 <p className="team-one__text">
-                  Education administrator with over twenty years combined
-                  experience in university and secondary education environments
-                  including: leadership, administration, supervision, program
-                  management, curriculum development, mentoring, teaching, and
-                  coaching. Proficiency in working with, and coaching, a variety
-                  of leadership styles. <br />
-                  <br />
-                  Program Management in multiple systems throughout education
-                  administration. Accomplished development of administrative
-                  policy in career services and admissions, enrollment strategy,
-                  international career placement, business network development,
-                  criteria standards, media and marketing materials, student
-                  intervention programs, data interpretation, community
-                  outreach, educational programming, and recruiting strategies.
+                  Dave is an education administrator with over twenty years
+                  combined experience in university and secondary education
+                  environments including: leadership, administration,
+                  supervision, program management, curriculum development,
+                  mentoring, teaching, and coaching. Dave is proficient in
+                  working with, and coaching in, a variety of leadership styles.
+                  Dave will serve on the board of directors.
                 </p>
               </div>
               <div className="team-one__social">

@@ -1,6 +1,6 @@
 import React, { Component } from "react"
 import { Link } from "gatsby"
-import logo from "../assets/images/logo-dev-island.png"
+// import logo from "../assets/images/logo-dev-island.png"
 import Logo from "./Logo"
 class NavTwo extends Component {
   constructor() {
