@@ -3,6 +3,7 @@ import rich from "../assets/images/team-rich.png"
 import aj from "../assets/images/team-aj.jpeg"
 import dani from "../assets/images/team-dani.jpg"
 import jason from "../assets/images/team-jason.jpg"
+import dave from "../assets/images/team-dave.jpeg"
 // TODO: Add Keoni's headshot
 import keoni from "../assets/images/team-1-1.jpg"
 
@@ -190,6 +191,46 @@ const TeamOne = () => {
                   <i className="fab fa-linkedin"></i>
                 </a>
               */}
+              </div>
+            </div>
+          </div>
+          <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+            <div className="team-one__single">
+              <div className="team-one__image">
+                <img src={dave} alt="David Dooley" />
+              </div>
+              <div className="team-one__content">
+                <h2 className="team-one__name">
+                  <a href="#teacher-details">David Dooley</a>
+                </h2>
+                <p className="team-one__designation">
+                  Member <br /> Board of Directors
+                </p>
+                <p className="team-one__text">
+                  Education administrator with over twenty years combined
+                  experience in university and secondary education environments
+                  including: leadership, administration, supervision, program
+                  management, curriculum development, mentoring, teaching, and
+                  coaching. Proficiency in working with, and coaching, a variety
+                  of leadership styles. <br />
+                  <br />
+                  Program Management in multiple systems throughout education
+                  administration. Accomplished development of administrative
+                  policy in career services and admissions, enrollment strategy,
+                  international career placement, business network development,
+                  criteria standards, media and marketing materials, student
+                  intervention programs, data interpretation, community
+                  outreach, educational programming, and recruiting strategies.
+                </p>
+              </div>
+              <div className="team-one__social">
+                <a
+                  href="https://www.linkedin.com/in/ddooley/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <i className="fab fa-linkedin"></i>
+                </a>
               </div>
             </div>
           </div>

@@ -1,6 +1,7 @@
 import React, { Component } from "react"
 import { Link } from "gatsby"
 import logo from "../assets/images/logo-dev-island.png"
+import Logo from "./Logo"
 class NavTwo extends Component {
   constructor() {
     super()
@@ -44,7 +45,6 @@ class NavTwo extends Component {
 
   render() {
     const { path } = this.props
-    console.log(path)
     return (
       <header className="site-header site-header__header-two ">
         <nav
@@ -55,13 +55,14 @@ class NavTwo extends Component {
           <div className="container clearfix">
             <div className="logo-box clearfix">
               <Link to="/" className="navbar-brand">
-                <img
+                <Logo className="blue" />
+                {/*<img
                   src={logo}
                   className="main-logo"
                   width="128"
                   style={{ marginTop: "-20px" }}
                   alt="Awesome alter text"
-                />
+                />*/}
               </Link>
               <button className="menu-toggler" data-target=".main-navigation">
                 <span className="kipso-icon-menu"></span>

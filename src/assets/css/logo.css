@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300&family=Source+Code+Pro:wght@200;300;900&display=swap");
+
+.logo {
+  position: relative;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #315b4f;
+  font-family: "Roboto Mono", monospace;
+  font-size: 1.5rem;
+}
+
+.bracket {
+  display: inline-block;
+  z-index: 1;
+  margin: 10px;
+  font-family: "Source Code Pro", monospace;
+  font-size: 1.5em;
+  font-weight: 900;
+}
+
+.slash {
+  position: absolute;
+  z-index: 0;
+  color: #999;
+  font-family: "Source Code Pro", monospace;
+  font-size: 2em;
+  font-weight: 900;
+  opacity: 0.4;
+  top: 0;
+  right: 10%;
+}
+
+.brand {
+  font-weight: 200;
+  z-index: 1;
+}
+
+.d,
+.i {
+  color: #315b4f;
+}
+
+.rest {
+  opacity: 0.5;
+}
+
+/* SHORT LOGO */
+.short .d {
+  display: inline-block;
+  margin-top: -10px;
+  color: #315b4f;
+  font-size: 1.4em;
+  font-weight: 200;
+}
+
+.short .slash {
+  top: -10px;
+  left: 35%;
+}
+
+.short .i,
+.short .rest,
+.short .hyphen {
+  display: none;
+}
+
+/* shortest */
+.shortest .brand {
+  display: none;
+}
+
+.shortest .slash,
+.shortest.monochrome .slash {
+  right: 22%;
+}
+
+/* BLUE */
+.dark-blue .d,
+.dark-blue .i,
+.dark-blue .rest,
+.dark-blue .bracket {
+  color: #073d57;
+}
+
+/* BLUE */
+.blue .d,
+.blue .i,
+.blue .rest,
+.blue .bracket {
+  color: #6b88be;
+}
+
+.blue .slash {
+  color: #f16101;
+}
+
+/* ORANGE */
+.orange .d,
+.orange .i,
+.orange .rest,
+.orange .bracket {
+  color: #f16101;
+}
+
+/* ORANGE */
+.purple .d,
+.purple .i,
+.purple .rest,
+.purple .bracket {
+  color: #7c4bc0;
+}
+
+/* Colored BG */
+.bg.blue {
+  background-color: #073d57;
+}
+
+.bg.green {
+  background-color: #315b4f;
+}
+
+.bg .d,
+.bg .i,
+.bg .rest,
+.bg .bracket {
+  color: #fff;
+}
+
+/* Monochrome */
+.monochrome {
+  background-color: #fff;
+}
+
+.monochrome .d,
+.monochrome .i,
+.monochrome .rest,
+.monochrome .bracket {
+  color: #000;
+  opacity: 1;
+}
+
+.monochrome .slash {
+  color: #fff;
+  opacity: 1;
+  right: 9%;
+  text-shadow: 2px 2px 0px #000;
+}
+
+/* Monochrome reverse */
+.monochrome.reverse {
+  background-color: #000;
+}
+
+.monochrome.reverse .d,
+.monochrome.reverse .i,
+.monochrome.reverse .rest,
+.monochrome.reverse .bracket {
+  color: #fff;
+  opacity: 1;
+}
+
+.monochrome.reverse .slash {
+  color: #000;
+  text-shadow: 2px 2px 0px #fff;
+}
+
+/* sunset background */
+.sunset {
+  background: url(../images/sunset.jpg) no-repeat;
+  background-size: cover;
+}
+
+.sunset.monochrome .slash {
+  opacity: 0.2;
+}
