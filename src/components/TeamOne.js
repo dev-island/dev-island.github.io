@@ -4,8 +4,7 @@ import aj from "../assets/images/team-aj.jpg"
 import dani from "../assets/images/team-dani.jpg"
 import jason from "../assets/images/team-jason.jpg"
 import dave from "../assets/images/team-dave.jpeg"
-// TODO: Add Keoni's headshot
-import keoni from "../assets/images/team-blank.png"
+import keoni from "../assets/images/team-keoni.jpg"
 
 const TeamOne = () => {
   return (
@@ -176,9 +175,12 @@ const TeamOne = () => {
                 </h2>
                 <p className="team-one__designation">Board of Directors</p>
                 <p className="team-one__text">
-                  Keoni Pau is an educator at Chiefess Kamakahelei Middle
-                  School, teaching both STEM and Hawaiiana classes. Keoni will
-                  serve on the board of directors.
+                  Keoni Pau is an experienced educator currently teaching at
+                  Chiefess Kamakahelei Middle School. His classes range from
+                  STEM to Hawaiiana classes. Keoni was born and raised on Kauai
+                  and prior to his position at Chiefess he taught for several
+                  years at Koloa Elementary School. Keoni will serve on the
+                  board of directors.
                 </p>
               </div>
               <div className="team-one__social">

@@ -42,7 +42,7 @@ const Contact = () => {
                     href="mailto:info@dev-island.org"
                     target="_blank"
                     rel="noreferrer"
-                    style={{ color: "#6b88be" }}
+                    style={{ color: "var(--secondary)" }}
                   >
                     info@dev-island.org
                   </a>{" "}

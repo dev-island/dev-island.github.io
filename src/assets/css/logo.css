@@ -89,11 +89,11 @@
 .blue .i,
 .blue .rest,
 .blue .bracket {
-  color: #6b88be;
+  color: var(--secondary);
 }
 
 .blue .slash {
-  color: #f16101;
+  color: var(--primary);
 }
 
 /* ORANGE */
@@ -101,7 +101,7 @@
 .orange .i,
 .orange .rest,
 .orange .bracket {
-  color: #f16101;
+  color: var(--primary);
 }
 
 /* ORANGE */
@@ -109,7 +109,7 @@
 .purple .i,
 .purple .rest,
 .purple .bracket {
-  color: #7c4bc0;
+  color: var(--secondary);
 }
 
 /* Colored BG */

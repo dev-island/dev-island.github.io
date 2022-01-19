@@ -1,7 +1,7 @@
 import React, { Component } from "react"
 import CountUp from "react-countup"
 import VisibilitySensor from "react-visibility-sensor"
-import ClientStripe from "../assets/images/circle-stripe.png"
+import ClientStripe from "../assets/images/circle-stripe-diblue.png"
 import aboutImage1 from "../assets/images/about-1.jpeg"
 import aboutImage2 from "../assets/images/about-2.jpeg"
 
@@ -25,7 +25,9 @@ class AboutOne extends Component {
         <img src={ClientStripe} className="about-one__circle" alt="" />
         <div className="container text-center">
           <div className="block-title text-center">
-            <h2 className="block-title__title">Building The Garden Island</h2>
+            <h2 className="block-title__title position-relative">
+              Building The Garden Island
+            </h2>
           </div>
           <div className="about-one__img">
             <div className="row">
