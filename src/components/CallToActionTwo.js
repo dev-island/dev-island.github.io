@@ -17,11 +17,7 @@ const CallToActionTwo = () => {
                 <p className="cta-two__text">
                   Interested in helping us train new developers?
                 </p>
-                <a
-                  href="/contact"
-                  className="thm-btn cta-two__btn"
-                  style={{ backgroundColor: "var(--secondary)" }}
-                >
+                <a href="/contact" className="thm-btn cta-three__btn">
                   Contact Us
                 </a>
               </div>
