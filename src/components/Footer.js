@@ -1,4 +1,5 @@
 import React from "react"
+import pkg from "../../package.json"
 // import footer1 from "../assets/images/footer-1-1.png"
 // import footer2 from "../assets/images/footer-1-2.png"
 // import footer3 from "../assets/images/footer-1-3.png"
@@ -12,7 +13,7 @@ const Footer = () => {
   }
   return (
     <div>
-      <footer className="site-footer">
+      <footer className="site-footer" data-version={pkg.version}>
         {/*
         <div className="site-footer__upper">
           <div className="container">
