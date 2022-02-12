@@ -2,36 +2,36 @@ import React from "react"
 
 const FAQS = [
   {
-    question: "Here's a Question",
-    answer: "Here's an Answer",
+    question: "Questions coming soon",
+    answer: "Answers coming soon",
   },
   {
-    question: "Here's a Question",
-    answer: "Here's an Answer",
+    question: "Questions coming soon",
+    answer: "Answers coming soon",
   },
   {
-    question: "Here's a Question",
-    answer: "Here's an Answer",
+    question: "Questions coming soon",
+    answer: "Answers coming soon",
   },
   {
-    question: "Here's a Question",
-    answer: "Here's an Answer",
+    question: "Questions coming soon",
+    answer: "Answers coming soon",
   },
   {
-    question: "Here's a Question",
-    answer: "Here's an Answer",
+    question: "Questions coming soon",
+    answer: "Answers coming soon",
   },
   {
-    question: "Here's a Question",
-    answer: "Here's an Answer",
+    question: "Questions coming soon",
+    answer: "Answers coming soon",
   },
   {
-    question: "Here's a Question",
-    answer: "Here's an Answer",
+    question: "Questions coming soon",
+    answer: "Answers coming soon",
   },
   {
-    question: "Here's a Question",
-    answer: "Here's an Answer",
+    question: "Questions coming soon",
+    answer: "Answers coming soon",
   },
 ]
 

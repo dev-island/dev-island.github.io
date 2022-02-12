@@ -161,6 +161,9 @@ class NavTwo extends Component {
                 <li className={`${path === "/apply/" ? "current" : ""}`}>
                   <Link to="/apply">Apply</Link>
                 </li>
+                <li className={`${path === "/faq/" ? "current" : ""}`}>
+                  <Link to="/faq">FAQ</Link>
+                </li>
               </ul>
             </div>
             <div className="right-side-box">
