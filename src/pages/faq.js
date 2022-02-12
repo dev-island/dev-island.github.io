@@ -1,19 +1,19 @@
-import React from 'react';
-import Layout from "../components/Layout";
-import NavOne from "../components/NavOne";
-import PageHeader from "../components/PageHeader";
-import Footer from "../components/Footer";
-import Faq from "../components/Faq";
+import React from "react"
+import Layout from "../components/Layout"
+import NavTwo from "../components/NavTwo"
+import PageHeader from "../components/PageHeader"
+import Footer from "../components/Footer"
+import Faq from "../components/Faq"
 
-const FaqPage = () => {
-    return (
-        <Layout pageTitle="Kipso | FAQ">
-            <NavOne />
-            <PageHeader title="FAQ" />
-            <Faq />
-            <Footer />
-        </Layout>
-    );
-};
+const FaqPage = ({ path }) => {
+  return (
+    <Layout pageTitle="FAQ | DevIsland">
+      <NavTwo path={path} />
+      <PageHeader title="FAQ" />
+      <Faq />
+      <Footer />
+    </Layout>
+  )
+}
 
-export default FaqPage;
+export default FaqPage
