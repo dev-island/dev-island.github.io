@@ -65,13 +65,13 @@ const TeamOne = () => {
                 <p className="team-one__text">
                   AJ Webb is an experienced software development instructor and
                   Principal Software Engineer in the financial services
-                  industry. He is skilled in Management, mentoring and
-                  JavaScript applications and Agile Methodologies. AJ is a
-                  strong engineering professional with a BS focused in Digital
-                  Media from Utah Valley University. AJ is a proud Hawaii
-                  resident and lives and works from the island of Kaua'i. AJ
-                  will serve on the Board of Directors and will lead the
-                  technical education of the students.
+                  industry. He is skilled in Management, mentoring, JavaScript
+                  applications and Agile Methodologies. AJ is a strong
+                  engineering professional with a BS focused in Digital Media
+                  from Utah Valley University. AJ is a proud Hawaii resident and
+                  lives and works from the island of Kaua'i. AJ will serve on
+                  the Board of Directors and will lead the technical education
+                  of the students.
                 </p>
               </div>
               <div className="team-one__social">

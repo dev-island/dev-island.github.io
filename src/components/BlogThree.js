@@ -27,34 +27,6 @@ const BlogThree = () => {
                 </a>
               </div>
               <div className="blog-one__content text-center">
-                {/*
-                <div className="blog-one__meta">
-                  <a
-                    data-toggle="tooltip"
-                    data-placement="top"
-                    title="Posted On Jan 19"
-                    href="#none"
-                  >
-                    <i className="fa fa-calendar-alt"></i>
-                  </a>
-                  <a
-                    data-toggle="tooltip"
-                    data-placement="top"
-                    title="No Comments"
-                    href="#none"
-                  >
-                    <i className="fa fa-comments"></i>
-                  </a>
-                  <a
-                    data-toggle="tooltip"
-                    data-placement="top"
-                    title="Posted By Admin"
-                    href="#none"
-                  >
-                    <i className="fa fa-user"></i>
-                  </a>
-                </div>
-              */}
                 <h2 className="blog-one__title">
                   <a
                     href="https://hawaii.bulletin.com/1774451602739006/"
@@ -76,6 +48,51 @@ const BlogThree = () => {
                 >
                   Read More
                 </a>
+                <p>on hawaii.bulletin.com</p>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-4">
+            <div className="blog-one__single">
+              <div className="blog-one__image">
+                <img
+                  src="https://scontent.fhnl3-1.fna.fbcdn.net/v/t1.6435-9/s960x960/249965030_176683817987912_3705710972850746753_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=37d4d5&_nc_ohc=Bvtu9uFgLEQAX_1DF99&_nc_ht=scontent.fhnl3-1.fna&oh=4e5c8d2de5757d903ac3fd68059b804f&oe=61A0AE28"
+                  alt=""
+                />
+                <a
+                  className="blog-one__plus"
+                  href="https://www.thegardenisland.com/2022/01/31/hawaii-news/kauai-nonprofit-accepting-applications-for-coding-boot-camp/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <i className="kipso-icon-plus-symbol"></i>
+                </a>
+              </div>
+              <div className="blog-one__content text-center">
+                <h2 className="blog-one__title">
+                  <a
+                    href="https://www.thegardenisland.com/2022/01/31/hawaii-news/kauai-nonprofit-accepting-applications-for-coding-boot-camp/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Kaua‘i nonprofit accepting applications for coding boot camp
+                  </a>
+                </h2>
+                <p className="blog-one__text">
+                  Nonprofit Dev-Island was designed to help Kaua‘i workers gain
+                  the skills necessary to secure local and remote-technology
+                  jobs and enable them to stay on the island and use skills to
+                  document local histories.
+                </p>
+                <a
+                  href="https://www.thegardenisland.com/2022/01/31/hawaii-news/kauai-nonprofit-accepting-applications-for-coding-boot-camp/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="blog-one__link"
+                >
+                  Read More
+                </a>
+                <p>on thegardenisland.com</p>
               </div>
             </div>
           </div>
