@@ -26,7 +26,7 @@ class AboutOne extends Component {
         <div className="container text-center">
           <div className="block-title text-center">
             <h2 className="block-title__title position-relative">
-              Building The Garden Island
+              Bridging the gap of opportunity on Kaua’i
             </h2>
           </div>
           <div className="about-one__img">
