@@ -23,12 +23,28 @@ class AboutOne extends Component {
     return (
       <section className="about-one ">
         <img src={ClientStripe} className="about-one__circle" alt="" />
+
+        {/* Our Mission */}
+        <p>
+          Currently, education options for becoming a software developer or
+          cloud engineer on the island are limited, and the alternatives on the
+          mainland are cost prohibitive to the individuals who would benefit the
+          most. We plan to address the lack of software development focused
+          educational resources in order to grow technical talent and enable
+          individuals to earn higher wages which will enable them to further
+          engage in their community. Education would enable individuals to gain
+          employment in technology jobs that can be remote or on-island.
+        </p>
+
         <div className="container text-center">
           <div className="block-title text-center">
             <h2 className="block-title__title position-relative">
-              Building The Garden Island
+              Bridging the gap of opportunity on Kaua’i
             </h2>
           </div>
+
+          {/* In the News here to replace shaved ice thing */}
+
           <div className="about-one__img">
             <div className="row">
               <div className="col-lg-6">
@@ -59,6 +75,7 @@ class AboutOne extends Component {
               <p className="about-one__review-text">of potential developers</p>
             </div>
           </div>
+
           <p className="about-one__text">
             Kaua'i has a rich history in agriculture and is known as the garden
             island. Our vision will contribute to Kaua'i's reputation as the
