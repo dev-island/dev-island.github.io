@@ -31,11 +31,11 @@ const SliderTwo = () => {
               <div className="row no-gutters">
                 <div className="col-xl-12">
                   <p className="banner-two__tag-line">
-                    Building Kaua'i's Economy
+                    Bridging the opportunity gap
                   </p>
                   <h3 className="banner-two__title banner-two__light-color">
                     by training <br />
-                    developers
+                    web developers
                   </h3>
                   <a href="/apply" className="thm-btn banner-two__btn">
                     Apply Now
